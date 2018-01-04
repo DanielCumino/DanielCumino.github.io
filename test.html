@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.bubble-speech {
+			position: relative;
+			width: 300px;
+			background-color: red;
+			padding: 16px;
+		}
+
+		.bubble-speech.bubble-left:after {
+			z-index: 9002;
+			display: block;
+			content: "";
+			position: absolute;
+			left: -25px;
+			top: 0;
+			border-bottom: 0 red solid;
+			border-top: 30px red solid;
+			border-left: 30px transparent solid;
+			/*background-color: black;*/
+		}
+
+	</style>
+</head>
+<body>
+	<!-- Bubble Start -->
+	<div class="bubble-speech bubble-left">
+		<h2 class="author">Navi</h2>
+		<div class="message">
+			Hey Link! Listen! Hey Link! Hey Link! Listen! Hey!
+		</div>
+	</body>
+	</html>

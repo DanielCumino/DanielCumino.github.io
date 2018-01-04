@@ -1,0 +1,106 @@
+.container .text{
+	text-align: justify;
+	/*border: solid 1px red;*/
+	position: relative;
+	margin-bottom: 2vh;
+	/*width: 100%;*/
+}
+.container .text ul li {
+	display: flex;
+	/*position: relative;*/
+	/*list-style: none;*/
+	list-style-type: upper-roman;
+	list-style-position: all;
+	cursor: pointer;
+	margin-bottom: 2vh;
+	/*margin-left: -7vh;*/
+
+}
+.container .text ul li .year{
+	/*float: left;*/
+	/*width: 20%;*/
+
+	border: solid .5vh #e8e8e8;
+	border-radius: 50%;
+	min-width: 9vh;
+	max-width: 9vh;
+	min-height: 9vh;
+	max-height: 9vh;
+	background-color: white;
+	font-weight: bold;
+	color: #676767;
+	padding-top: 2.5vh;
+	padding-left: 1.5vh;
+	/*padding: 35px;*/
+	/*padding-left: -2vh;*/
+	text-align: center;
+	margin: .5vh;
+}
+.container .text ul li .dialog_box{
+	margin-left: 1.8vh;
+	margin-top: .5vh;
+	background-color: #e8e8e8;
+	min-height: 10vh;
+
+	padding: 1.5vh 1.5vh 1.5vh 2.5vh;
+
+	text-align: justify;
+
+	border-right: solid 1px #b5b5b5;
+	border-bottom: solid 1px #b5b5b5;
+
+	/*right: -5vh;*/
+
+	-webkit-transition: height .3s;
+	-moz-transition: height .3s;
+	-o-transition: height .3s;
+	transition: height .3s;
+}
+.container .text ul li .dialog_box.big{
+	-webkit-transition: height .3s;
+	-moz-transition: height .3s;
+	-o-transition: height .3s;
+	transition: height .3s;
+}
+.container .text ul li .dialog_box:before{
+	position: absolute;
+	content: ' ';
+	height: 2vh;
+	width: 2vh;
+	background-color: #e8e8e8;
+	/*background-color: red;*/
+	transform: rotate(45deg);
+	/*border-left: solid 1px #b5b5b5;*/
+	/*border-bottom: solid 1px #b5b5b5;*/
+	/*transform: rotate(0deg) skew(45deg);*/
+	margin-top: 1.4vh;
+	margin-left: -3.2vh;
+}
+
+.container .text ul li .dialog_box .title_role{
+	margin-bottom: 8px;
+	font-weight: bold;
+	text-transform: uppercase;	
+}
+.container .text ul li .dialog_box table{
+	width: 100%;
+}
+.container .text ul li .dialog_box .title_role,
+.container .text ul li .dialog_box .local{
+	padding-bottom: 3px;
+}
+.container .text ul li .dialog_box .local{
+	text-transform: uppercase;
+	text-align: right;
+	/*border: solid 1px red;*/
+	padding-right: 20px;
+}
+.container .text ul li .dialog_box .exp_text{
+	display: none;
+	border-top: solid 1px #ccc;
+	padding-top: 10px;
+}
+.container .text ul li .details{
+	font-size: 1.5vh;
+	color: rgb(110, 145, 176);
+}

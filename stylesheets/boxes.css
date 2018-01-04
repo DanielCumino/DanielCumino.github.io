@@ -1,0 +1,99 @@
+.container .text{
+	text-align: justify;
+}
+.container .text ul li {
+	list-style: none;
+	font-size: 2.5vh;
+	margin-bottom: 2%;
+	cursor: pointer;
+}
+.container .text ul li .year{
+	position: absolute;
+	/*border: solid .5vh #e8e8e8;*/
+	border-radius: 20vh 20vh 20vh 20vh;
+	min-width: 10vh;
+	display: block;
+	line-height: 1.5vh;
+	/*height: 10vh;*/
+	padding: 1.5vh;
+
+	background-color: rgba(240,240,240,.9);
+
+	/*margin-bottom: 20px;*/
+
+	text-align: center;
+	font-weight: 200;
+	letter-spacing: .8px;
+
+	/*color: #777;*/
+	color: black;
+
+	/*padding-top: 2.2vh;*/
+	/*margin-left: auto;
+	margin-right: auto;*/
+	/*text-align: center;*/
+}
+.container .text ul li .dialog_box{
+	position: relative;
+	margin: 6.8vh 0 2vh 7.8vh;
+	background-color: #e8e8e8;
+	min-height: 10px;
+	padding: 1.5vh 1.5vh 1.5vh 2.5vh;
+	text-align: justify;
+	border-right: solid 1px #b5b5b5;
+	border-bottom: solid 1px #b5b5b5;
+
+	-webkit-transition: height .3s ease, border .3s ease;
+	-moz-transition: height .3s ease, border .3s ease;
+	-o-transition: height .3s ease, border .3s ease;
+	transition: height .3s ease, border .3s ease;
+}
+.container .text ul li .dialog_box.big{
+	-webkit-transition: height .3s ease, border .3s ease;
+	-moz-transition: height .3s ease, border .3s ease;
+	-o-transition: height .3s ease, border .3s ease;
+	transition: height .3s ease, border .3s ease;
+}
+.container .text ul li .dialog_box:before{
+	position: absolute;
+	content: ' ';
+	border-top: solid 1.9vh rgba(255,0,0,0);
+	border-right: solid 6vh rgba(0,255,0,0);
+	border-bottom: solid 7.85vh rgba(0,0,255,0);
+	border-left: solid 2.5vh #e8e8e8;
+
+	transform: rotate(-11deg);
+	margin-top: -1.8em;
+	margin-left: -1.7em;
+}
+
+.container .text ul li .dialog_box .title_role{
+	margin-bottom: 8px;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-right: solid 1px #ccc;
+	padding-right: 3vh;
+}
+.container .text ul li .dialog_box table{
+	width: 100%;
+}
+.container .text ul li .dialog_box .title_role,
+.container .text ul li .dialog_box .local{
+	padding-bottom: 3px;
+}
+.container .text ul li .dialog_box .local{
+	text-transform: uppercase;
+	text-align: right;
+	/*border: solid 1px red;*/
+	padding-right: 20px;
+	padding-left: 3vh;
+}
+.container .text ul li .dialog_box .exp_text{
+	display: none;
+	border-top: solid 1px #ccc;
+	padding-top: 10px;
+}
+.container .text ul li .details{
+	font-size: 1.5vh;
+	color: rgb(110, 145, 176);
+}
