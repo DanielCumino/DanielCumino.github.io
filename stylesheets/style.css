@@ -104,12 +104,12 @@ a {
 	box-shadow: .15vh .25vh .5vh rgba(25,25,25,.85);
 }
 .navigator .profile_pic.front{
-	background: rgba(205,218,233,1) url("/images/profile.jpg") no-repeat center;
+	background: rgba(205,218,233,1) url("/images/profile.png") no-repeat center;
 	background-size: 25.3vh;
 	/*background-position: .5vh -3.5vh; */
 }
 .navigator .profile_pic.back{
-	background: rgba(205,218,233,1) url("/images/profile4.jpg") no-repeat center;
+	background: rgba(205,218,233,1) url("/images/profile4.png") no-repeat center;
 	background-size: 27vh;
 }
 .navigator .title h1,
